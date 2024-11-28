@@ -1,0 +1,8 @@
+#!/bin/sh
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Wireguard > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Converter/Wire* > /dev/null 2>&1
+echo "*****************************************"
+echo "*         Wireguard Vpn removed         *"
+echo "*****************************************"
+sleep 2
+exit 0
